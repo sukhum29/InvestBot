@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest Bot</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <section id="navbar">
+    <div class="container-fluid">
+      <header
+          class="d-flex flex-wrap justify-content-center py-2 ">
+        <div
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          
+          <a href="index.html"><span class="fs-4 headtext"><img src="icon1.webp" width="90 px" height="25 px" ></a>
+            
+          </span>
+        </div>
+        
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#cards" class="nav-link" id="link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link" id="link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Question" class="nav-link" id="link">Contact Us</a>
+          </li>
+          
+        </ul>
+      </header>
+    </div>
+    
+  </section>
+  <div class="text">
+    <div class="title">
+      <h1 class="main">Investment Consulting at your fingertips</h1>
+    </div>
+  </div>
+  <section id="cards">
+    <main>
+      <div class="card-container">
+        <div class="card">
+          <h1 class="card-title">Investment Guidance</h1>
+          <h2>01</h2>
+          <p class="card-description">Get personalized investment advice based on your risk profile, goals, and investment horizon. Our experts will help you make informed decisions and maximize your returns.</p>
+          
+        </div>
+        <div class="card">
+          <h1 class="card-title">Portfolio Analysis</h1>
+          <h2>02</h2>
+          <p class="card-description">Understand the performance of your portfolio and optimize it to achieve your investment goals. Get a comprehensive report on your current investments and recommendations on how to improve your portfolio..</p>
+          
+          </div>
+
+        <div class="card">
+          <h1 class="card-title">Financial Planning</h1>
+          <h2>03</h2>
+          <p class="card-description">Create a customized financial plan that aligns with your investment goals. Our experts will help you create a plan that will help you achieve your long-term financial goals.</p>
+          
+        </div>
+        <div class="card">
+          <h1 class="card-title">Risk 
+            Management</h1>
+            <h2>04</h2>
+            <p class="card-description">Get a comprehensive report on your current investment risk exposure and risk profile. Our experts will help you reduce your risk exposure and create a diversified investment portfolio.</p>
+            
+          </div>
+          <div class="card">
+            <h1 class="card-title">24/7 Support</h1>
+            <h2>05</h2>
+            <p class="card-description">Get support from our team of experts whenever you need it. Our support team is available 24/7 to help you with any investment-related questions or issues you may have.</p>
+            
+          </div>
+        </section>
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+
+        <div class="stock-bar-container">
+          <div class="stock-bar" id="stock-info">
+              <!-- Stock price items will be added here dynamically -->
+
+          </div>
+      </div>
+</main>
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with Ethan",
+      "botConversationDescription": "Your Personal FinanceBot",
+      "botId": "73db08d9-737c-4c84-a01a-8cb097155607",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "73db08d9-737c-4c84-a01a-8cb097155607",
+      "lazySocket": true,
+      "botName": "Ethan",
+      "avatarUrl": "https://clipground.com/images/img_avatar-png-2.png",
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/37081f25-1ca4-4323-a0ea-dca459b4046c/v42131/style.css",
+      "frontendVersion": "v1",
+      "useSessionStorage": true,
+      "enableConversationDeletion": true
+  });
+</script>
+<script src="script.js">
+
+</script>
+
+<br>
+<br>
+<section id="About-Us">
+  <div class="container pb-4">
+    <div class="col text-center">
+      <h1 class="custom-h1 display-5 heading fw-bold lh-1">About Us</h1>
+      
+      <p style="margin-top: 10px" class="lead body-text">
+        InvestBot is an innovative chatbot project that addresses the demand for accessible investment tools. With a mission to demystify finance, it provides users with valuable insights and guidance. By facilitating engaging conversations about financial goals and strategies, InvestBot aims to empower individuals to make informed investment decisions in an ever-evolving financial landscape.
+        <br>
+        <br>
+        
+      </p>
+    </div>
+  </div>
+</section>
+<section id="Question">
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col-md-4 col-xs-12 first body-text text-md-left text-center">
+        <br><h1 class="custom-h1 text-center">Have a <br>
+          question?</h1>
+          <br>
+        <p class="custom-p"> Contact us whenever you have any questions. We are always here for
+        you!</p>
+       <br>
+      </div>
+      <div class="col-4"></div>
+      <div class="col-md-3 col-xs-12 second contact-text d-flex flex-column text-center text-md-left">
+        <span class="contact-title">Email<br></span>
+        <span>ContactUs@InvestBot.com<br></span>
+        <br><span class="contact-title">Phone<br></span>
+        <span>+91 1234567890<br></span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="Foot">
+  <footer class="py-3 mt-20">
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div class="col-12">
+          <span class="fs-4 headtext"><img src="icon1.webp" width="90px" height="25px"></span>
+        </div>
+        <div class="col-12 mt-2">
+          <p class="mb-0">Created by Team Viper</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+
+
+</body>
+</html>

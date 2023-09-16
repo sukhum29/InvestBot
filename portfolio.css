@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #363131;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('bank.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust as needed */
+    background-attachment: fixed;
+
+}
+
+h1 {
+    color: #ffffff;
+}
+.question-box {
+    background-color: #ffffffd0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Add spacing between question boxes */
+    max-width: 85%; /* Adjust the width as needed */
+    width: 900px; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+.question {
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #313636;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #230d6a;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#navbar{
+    background-color: rgb(225, 223, 226);
+    color: #fff;
+}
+#link1{
+    color: black;
+    font-weight: 550;
+}
