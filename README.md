@@ -22,11 +22,11 @@ This project is a web application designed for professionals to track stock mark
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/investment-for-professionals.git
+   git clone https://github.com/sukhum29/InvestBot
    ```
 2. Navigate to the Project Directory:
   ```bash
-   cd investment-for-professionals
+   cd InvestBot
    ```
 3. Include Bootstrap and Dependencies: Make sure to include Bootstrap and any other necessary libraries by downloading them or linking to CDN versions in your HTML.
 4. API Key: Replace the apiKey in the fetchStockPrices function with your own RapidAPI key to fetch stock data.
