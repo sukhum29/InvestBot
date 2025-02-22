@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a web application designed for professionals to track stock market information. It fetches real-time stock prices and displays them on a user-friendly interface. The application uses HTML, CSS, and JavaScript, along with Bootstrap for responsive design.
+This project is a web application designed for the professionals to track stock market information. It fetches real-time stock prices and displays them on a user-friendly interface. The application uses HTML, CSS, and JavaScript, along with Bootstrap for responsive design.
 
 ## Features
 
